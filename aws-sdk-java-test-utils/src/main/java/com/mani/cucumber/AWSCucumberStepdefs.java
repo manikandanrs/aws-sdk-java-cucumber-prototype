@@ -18,6 +18,9 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.runtime.java.guice.ScenarioScoped;
 
+/**
+ * Step definitions that perform actions for every matcher that is agreed.
+ */
 @ScenarioScoped
 public class AWSCucumberStepdefs {
 

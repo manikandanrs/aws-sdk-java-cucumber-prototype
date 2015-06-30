@@ -8,6 +8,10 @@ import com.google.inject.Stage;
 import cucumber.api.guice.CucumberModules;
 import cucumber.runtime.java.guice.InjectorSource;
 
+/**
+ * Injector that binds the ClientInfo interface to the CognitoClientInfo.
+ */
+
 public class CognitoModuleInjector implements InjectorSource {
 
     @Override
